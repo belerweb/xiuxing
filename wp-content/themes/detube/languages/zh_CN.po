@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deTube\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-17 14:44+0800\n"
+"POT-Creation-Date: 2013-05-26 10:21+0800\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Cloud Stone <dedepress@gmail.com>\n"
 "Language-Team: DeDePress Team <dedepress@gmail.com>\n"
@@ -42,11 +42,11 @@ msgstr ""
 msgid "Joined %s ago"
 msgstr "%s 前加入"
 
-#: ../author.php:53 ../functions.php:522
+#: ../author.php:53 ../functions.php:531
 msgid "Twitter"
 msgstr ""
 
-#: ../author.php:55 ../functions.php:523
+#: ../author.php:55 ../functions.php:532
 msgid "Facebook"
 msgstr ""
 
@@ -54,7 +54,7 @@ msgstr ""
 msgid "Recently Added"
 msgstr "最近增加"
 
-#: ../author.php:83
+#: ../author.php:84
 msgid "Liked Videos"
 msgstr "喜欢的视频"
 
@@ -95,7 +95,7 @@ msgstr "评论"
 msgid "Close"
 msgstr "关闭"
 
-#: ../bp-functions.php:111 ../activity/entry.php:37 ../admin/admin.php:1109
+#: ../bp-functions.php:111 ../activity/entry.php:37 ../admin/admin.php:1148
 msgid "View"
 msgstr "查看"
 
@@ -127,17 +127,17 @@ msgstr ""
 msgid "Comments are closed."
 msgstr "已关闭评论"
 
-#: ../functions.php:51 ../admin/admin.php:266
+#: ../functions.php:51 ../admin/admin.php:267
 msgid "Main Navigation"
-msgstr ""
+msgstr " 主导航"
 
-#: ../functions.php:52 ../admin/admin.php:385
+#: ../functions.php:52 ../admin/admin.php:397
 msgid "Footer Navigation"
-msgstr ""
+msgstr "底部导航"
 
 #: ../functions.php:57
 msgid "Main Sidebar"
-msgstr ""
+msgstr "主侧边栏"
 
 #: ../functions.php:59
 msgid ""
@@ -198,7 +198,7 @@ msgstr ""
 
 #: ../functions.php:117
 msgid "Author Sidebar"
-msgstr ""
+msgstr "作者侧边栏"
 
 #: ../functions.php:119
 msgid ""
@@ -208,280 +208,301 @@ msgstr "作者页面侧边栏"
 
 #: ../functions.php:128
 msgid "Footbar"
-msgstr ""
+msgstr "页脚区域"
 
 #: ../functions.php:130
 msgid "An optional widget area for your site footer"
-msgstr ""
+msgstr "页脚区域的可选部件"
 
-#: ../functions.php:291
+#: ../functions.php:292
 msgid "Something\\'s error. Please try again later!"
-msgstr ""
+msgstr "发生了意外错误，请稍微再试！"
 
-#: ../functions.php:345 ../home-featured-full-width.php:42
+#: ../functions.php:346 ../home-featured-full-width.php:42
 #: ../single-video-full-width.php:21 ../single-video.php:22 ../single.php:41
 msgid "Share"
 msgstr "分享"
 
-#: ../functions.php:524
+#: ../functions.php:533
 msgid "Location"
-msgstr ""
+msgstr "位置"
 
-#: ../functions.php:664
+#: ../functions.php:751
 #, php-format
 msgid "Page %s"
 msgstr "第 %s 页"
 
-#: ../functions.php:884
+#: ../functions.php:999
 msgid "More"
 msgstr "更多"
 
-#: ../functions.php:1139 ../functions.php:1144
+#: ../functions.php:1211 ../functions.php:1216
 msgid "Play"
 msgstr "播放"
 
-#: ../functions.php:1145
+#: ../functions.php:1217
 msgid "Pause"
 msgstr "暂停"
 
-#: ../functions.php:1156
+#: ../functions.php:1228
 msgid "Mute"
 msgstr "静音"
 
-#: ../functions.php:1157
+#: ../functions.php:1229
 msgid "Unmute"
 msgstr "取消静音"
 
-#: ../functions.php:1160
+#: ../functions.php:1232
 msgid "Full screen"
 msgstr "全屏"
 
-#: ../functions.php:1161
+#: ../functions.php:1233
 msgid "Exit full screen"
 msgstr "退出全屏"
 
-#: ../functions.php:1269
+#: ../functions.php:1255
 #, php-format
 msgid "%s <span class=\"suffix\">Views</span>"
 msgstr "%s <span class=\"suffix\">查看</span>"
 
-#: ../functions.php:1270
+#: ../functions.php:1256
 #, php-format
 msgid "%s <span class=\"suffix\">Comments</span>"
 msgstr "%s <span class=\"suffix\">评论</span>"
 
-#: ../functions.php:1271
+#: ../functions.php:1257
 #, php-format
 msgid "%s <span class=\"suffix\">Likes</span>"
 msgstr "%s <span class=\"suffix\">我喜欢</span>"
 
-#: ../functions.php:1416
+#: ../functions.php:1403
 msgid "You may also like"
 msgstr "你可以喜欢"
 
-#: ../functions.php:1449 ../members/single/profile/profile-wp.php:15
+#: ../functions.php:1436 ../members/single/profile/profile-wp.php:15
 msgid "Name"
 msgstr "名字"
 
-#: ../functions.php:1451
+#: ../functions.php:1438
 msgid "Email"
 msgstr "电子邮件"
 
-#: ../functions.php:1453 ../members/single/profile/profile-wp.php:33
+#: ../functions.php:1440 ../members/single/profile/profile-wp.php:33
 msgid "Website"
 msgstr "网站"
 
-#: ../functions.php:1457
+#: ../functions.php:1444
 #, php-format
 msgid "Required fields are marked %s"
 msgstr "标记%s的必须填写"
 
-#: ../functions.php:1460 ../widgets/widget-comments.php:90
+#: ../functions.php:1447 ../widgets/widget-comments.php:90
 msgid "Comment"
 msgstr "评论"
 
-#: ../functions.php:1461
+#: ../functions.php:1448
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
-msgstr ""
+msgstr "您必须 <a href=\"%s\">登录</a> 才能发表评论。"
 
-#: ../functions.php:1462
+#: ../functions.php:1449
 #, php-format
 msgid ""
 "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
 "this account\">Log out?</a>"
 msgstr ""
 
-#: ../functions.php:1463
+#: ../functions.php:1450
 msgid "Your email address will not be published."
-msgstr ""
+msgstr "您的电子邮件地址不会被公开。"
 
-#: ../functions.php:1464
+#: ../functions.php:1451
 #, php-format
 msgid ""
 "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
 "and attributes: %s"
 msgstr ""
 
-#: ../functions.php:1467
+#: ../functions.php:1454
 msgid "Leave a Reply"
-msgstr ""
+msgstr "回复"
 
-#: ../functions.php:1468
+#: ../functions.php:1455
 #, php-format
 msgid "Leave a Reply to %s"
-msgstr ""
+msgstr "回复 %s"
 
-#: ../functions.php:1469
+#: ../functions.php:1456
 msgid "Cancel reply"
-msgstr ""
+msgstr "取消回复"
 
-#: ../functions.php:1470
+#: ../functions.php:1457
 msgid "Post Comment"
-msgstr ""
+msgstr "发表评论"
 
-#: ../functions.php:1531
+#: ../functions.php:1518
 #, php-format
 msgid "<cite class=\"fn\">%s</cite>"
 msgstr ""
 
-#: ../functions.php:1532 ../home-featured.php:70 ../item-video.php:29
+#: ../functions.php:1519 ../home-featured.php:76 ../item-video.php:36
 #: ../widgets/widget-comments.php:156 ../widgets/widget-posts.php:70
 #: ../widgets/widget-related-posts.php:72
 #, php-format
 msgid "%s ago"
 msgstr "%s 前"
 
-#: ../functions.php:1533 ../single-video-full-width.php:52
+#: ../functions.php:1520 ../single-video-full-width.php:52
 #: ../single-video.php:51 ../single.php:62
 msgid "Edit"
 msgstr "编辑"
 
-#: ../functions.php:1538
+#: ../functions.php:1525
 msgid "Your comment is awaiting moderation."
-msgstr ""
+msgstr "您的评论正在等待审核。"
 
-#: ../functions.php:1565
+#: ../functions.php:1552
 msgid "Lost password?"
-msgstr ""
+msgstr "忘记密码？"
 
-#: ../functions.php:1574
+#: ../functions.php:1560 ../admin/admin.php:1215 ../admin/admin.php:1261
+#: ../widgets/widget-comments.php:90 ../widgets/widget-posts.php:141
+#: ../widgets/widget-related-posts.php:133
+msgid "All"
+msgstr "全部"
+
+#: ../functions.php:1561
+msgid "Day"
+msgstr "日"
+
+#: ../functions.php:1562
+msgid "Week"
+msgstr "周"
+
+#: ../functions.php:1563
+msgid "Month"
+msgstr "月"
+
+#: ../functions.php:1564
+msgid "Year"
+msgstr "年"
+
+#: ../functions.php:1576
 msgid "Date"
 msgstr "日期"
 
-#: ../functions.php:1575
+#: ../functions.php:1577
 msgid "Sort by Date"
 msgstr "按日期排序"
 
-#: ../functions.php:1578 ../admin/admin.php:1113
+#: ../functions.php:1580 ../admin/admin.php:1152
 msgid "Title"
 msgstr "标题"
 
-#: ../functions.php:1579
+#: ../functions.php:1581
 msgid "Sort by Title"
 msgstr "按标题排序"
 
-#: ../functions.php:1582
+#: ../functions.php:1584
 msgid "Views"
 msgstr "点击"
 
-#: ../functions.php:1583
+#: ../functions.php:1585
 msgid "Sort by Views"
 msgstr "按点击排序"
 
-#: ../functions.php:1586 ../extensions/dp-post-likes.php:474
+#: ../functions.php:1588 ../extensions/dp-post-likes.php:474
 msgid "Likes"
 msgstr "喜欢"
 
-#: ../functions.php:1587
+#: ../functions.php:1589
 msgid "Sort by Likes"
 msgstr "按链接排序"
 
-#: ../functions.php:1590 ../activity/index.php:100
+#: ../functions.php:1592 ../activity/index.php:100
 #: ../members/single/activity.php:28
 msgid "Comments"
 msgstr "评论"
 
-#: ../functions.php:1591
+#: ../functions.php:1593
 msgid "Sort by Comments"
 msgstr "按评论排序"
 
-#: ../functions.php:1594
+#: ../functions.php:1596
 msgid "Random"
 msgstr "随机"
 
-#: ../functions.php:1595
+#: ../functions.php:1597
 msgid "Sort Randomly"
 msgstr "随机排序"
 
-#: ../functions.php:1630
+#: ../functions.php:1624
 msgid "Grid View with Mini Thumbnail"
 msgstr ""
 
-#: ../functions.php:1631
+#: ../functions.php:1625
 msgid "Grid View with Small Thumbnail"
 msgstr ""
 
-#: ../functions.php:1632
+#: ../functions.php:1626
 msgid "Grid View with Medium Thumbnail"
 msgstr ""
 
-#: ../functions.php:1633
+#: ../functions.php:1627
 msgid "List View with Small Thumbnail"
 msgstr ""
 
-#: ../functions.php:1634
+#: ../functions.php:1628
 msgid "List View with Medium Thumbnail"
 msgstr ""
 
-#: ../functions.php:1635
+#: ../functions.php:1629
 msgid "List View with Large Thumbnail"
 msgstr ""
 
-#: ../header.php:114
+#: ../header.php:123
 msgid "Profile"
 msgstr "设置"
 
-#: ../header.php:115
+#: ../header.php:124
 msgid "Account"
 msgstr "帐号"
 
-#: ../header.php:116
+#: ../header.php:125
 msgid "Log out"
 msgstr "退出"
 
-#: ../header.php:122
+#: ../header.php:131
 msgid "Sign up"
 msgstr "注册"
 
-#: ../header.php:125
+#: ../header.php:134
 msgid "Log In"
 msgstr "登录"
 
-#: ../header.php:152 ../admin/admin.php:695
+#: ../header.php:162 ../admin/admin.php:707
 msgid "Home"
 msgstr "首页"
 
-#: ../home-featured.php:43 ../home-featured.php:67 ../item-video.php:25
+#: ../home-featured.php:52 ../home-featured.php:73 ../item-video.php:25
 #, php-format
 msgid "Permalink to %s"
+msgstr "永久链接到 %s"
+
+#: ../item-video.php:31
+#, php-format
+msgid "View all posts by %s"
 msgstr ""
 
-#: ../item-video.php:28 ../single-video-full-width.php:49
-#: ../single-video.php:48 ../single.php:59 ../widgets/widget-posts.php:69
-#: ../widgets/widget-related-posts.php:71
-msgid "Added by"
-msgstr "发布"
-
-#: ../loop-actions.php:108 ../admin/admin.php:1311
+#: ../loop-actions.php:108 ../admin/admin.php:1380
 msgid "Sort Ascending"
 msgstr "升序"
 
-#: ../loop-actions.php:109 ../admin/admin.php:1310
+#: ../loop-actions.php:109 ../admin/admin.php:1379
 msgid "Sort Descending"
 msgstr "降序"
 
-#: ../loop-actions.php:121 ../admin/admin.php:960
+#: ../loop-actions.php:121 ../admin/admin.php:991
 msgid "Sort:"
 msgstr "排序："
 
@@ -547,50 +568,50 @@ msgstr ""
 
 #: ../loop-nav.php:19
 msgid "&laquo; Prev"
-msgstr ""
+msgstr "&laquo; 上一页"
 
 #: ../loop-nav.php:25
 msgid "Next &raquo;"
-msgstr ""
+msgstr "下一页 &raquo;"
 
-#: ../page-template-archives.php:42 ../admin/admin.php:715
+#: ../page-template-archives.php:42 ../admin/admin.php:727
 msgid "Most Liked"
 msgstr "大家最喜欢的视频"
 
-#: ../page-template-archives.php:53 ../admin/admin.php:710
+#: ../page-template-archives.php:53 ../admin/admin.php:722
 msgid "Most Viewed"
 msgstr "被观看最多的视频"
 
-#: ../page-template-archives.php:64 ../admin/admin.php:720
+#: ../page-template-archives.php:64 ../admin/admin.php:732
 msgid "Most Commented"
 msgstr "评论最多的视频"
 
 #: ../page-template-archives.php:73 ../page-template-full-width.php:24
 #: ../page-template-tag-cloud.php:27 ../page.php:27
-#: ../single-video-full-width.php:57 ../single-video.php:56 ../single.php:78
+#: ../single-video-full-width.php:57 ../single-video.php:56 ../single.php:80
 msgid "Pages:"
 msgstr ""
 
 #: ../page-template-archives.php:88
 msgid "Calendar"
-msgstr ""
+msgstr "日历"
 
 #: ../page-template-archives.php:89
 msgid "Category Archives"
-msgstr ""
+msgstr "分类存档"
 
 #: ../page-template-archives.php:90
 msgid "Monthly Archives"
-msgstr ""
+msgstr "按月归档"
 
 #: ../page-template-archives.php:91
 msgid "Tag Archives"
-msgstr ""
+msgstr "标签归档"
 
 #: ../page-template-archives.php:92 ../widgets/widget-comments.php:81
 #: ../widgets/widget-comments.php:126
 msgid "Recent Comments"
-msgstr ""
+msgstr "最近的评论"
 
 #: ../page-template-likes.php:33
 #, php-format
@@ -598,6 +619,8 @@ msgid ""
 "You must <a href=\"%1$s\">register</a> and <a href=\"%2$s\">login</a> to "
 "view your liked posts."
 msgstr ""
+"您必须 <a href=\"%1$s\">注册</a> 并且 <a href=\"%2$s\">登录</a> 才能查看你喜"
+"欢的视频。"
 
 #: ../searchform.php:15
 msgid "Search..."
@@ -605,22 +628,27 @@ msgstr "搜索…"
 
 #: ../searchform.php:16
 msgid "Search"
-msgstr ""
+msgstr "搜索"
 
 #: ../single-video-full-width.php:43
 msgid "Details"
-msgstr ""
+msgstr "详细信息"
+
+#: ../single-video-full-width.php:49 ../single-video.php:48 ../single.php:59
+#: ../widgets/widget-posts.php:69 ../widgets/widget-related-posts.php:71
+msgid "Added by"
+msgstr "发布"
 
 #: ../single-video-full-width.php:50 ../single-video.php:49 ../single.php:60
 msgid "on"
 msgstr ""
 
-#: ../single-video-full-width.php:61 ../single-video.php:60 ../single.php:82
-#: ../widgets/widget-posts.php:177
+#: ../single-video-full-width.php:61 ../single-video.php:60 ../single.php:84
+#: ../widgets/widget-posts.php:191
 msgid "Category:"
-msgstr ""
+msgstr "分类："
 
-#: ../single-video-full-width.php:62 ../single-video.php:61 ../single.php:83
+#: ../single-video-full-width.php:62 ../single-video.php:61 ../single.php:85
 msgid "Tags:"
 msgstr "标签："
 
@@ -634,7 +662,7 @@ msgstr "显示少量"
 
 #: ../activity/activity-loop.php:41
 msgid "Load More"
-msgstr ""
+msgstr "加载更多"
 
 #: ../activity/activity-loop.php:55
 msgid "Sorry, there was no activity found. Please try a different filter."
@@ -649,13 +677,13 @@ msgstr ""
 
 #: ../activity/comment.php:37 ../groups/single/forum/edit.php:10
 msgid "Reply"
-msgstr ""
+msgstr "回复"
 
-#: ../activity/comment.php:43 ../admin/admin.php:1144
+#: ../activity/comment.php:43 ../admin/admin.php:1183
 #: ../members/single/messages/messages-loop.php:51
 #: ../members/single/messages/single.php:24
 msgid "Delete"
-msgstr ""
+msgstr "删除"
 
 #: ../activity/entry.php:37
 msgid "In reply to: "
@@ -668,7 +696,7 @@ msgstr ""
 #: ../activity/entry.php:60
 #, php-format
 msgid "Comment <span>%s</span>"
-msgstr ""
+msgstr "评论 <span>%s</span>"
 
 #: ../activity/entry.php:68 ../bp/ajax.php:480 ../bp/ajax.php:497
 msgid "Favorite"
@@ -865,191 +893,191 @@ msgstr ""
 msgid "Hook Settings"
 msgstr ""
 
-#: ../admin/admin.php:76
+#: ../admin/admin.php:77
 msgid "These settings determine how to display content on archive pages."
 msgstr ""
 
-#: ../admin/admin.php:82
+#: ../admin/admin.php:83
 msgid "Loop Actions"
 msgstr ""
 
-#: ../admin/admin.php:83
+#: ../admin/admin.php:84
 msgid "Check this to show \"Loop Actions\" bar"
 msgstr ""
 
-#: ../admin/admin.php:97
+#: ../admin/admin.php:98
 msgid "Sort Order"
 msgstr "顺序排序"
 
-#: ../admin/admin.php:98
+#: ../admin/admin.php:99
 msgid "Check this to show ASC/DESC order"
 msgstr ""
 
-#: ../admin/admin.php:133
+#: ../admin/admin.php:134
 msgid ""
 "These settings enable you to change the labels of WordPress built-in post "
 "type 'post', to 'Videos', or whatever you want to name it."
 msgstr ""
 
-#: ../admin/admin.php:138
+#: ../admin/admin.php:139
 msgid "Custom Labels"
 msgstr ""
 
-#: ../admin/admin.php:139
+#: ../admin/admin.php:140
 msgid "check this to enable custom labels for post type \"post\"?"
 msgstr ""
 
-#: ../admin/admin.php:145
+#: ../admin/admin.php:146
 msgid "name"
 msgstr ""
 
-#: ../admin/admin.php:146 ../admin/admin.php:212
+#: ../admin/admin.php:147 ../admin/admin.php:213
 msgid "Videos"
 msgstr ""
 
-#: ../admin/admin.php:151
+#: ../admin/admin.php:152
 msgid "singular_name"
 msgstr ""
 
-#: ../admin/admin.php:152 ../admin/admin.php:218
+#: ../admin/admin.php:153 ../admin/admin.php:219
 msgid "Video"
 msgstr ""
 
-#: ../admin/admin.php:157
+#: ../admin/admin.php:158
 msgid "add_new"
 msgstr ""
 
-#: ../admin/admin.php:158
+#: ../admin/admin.php:159
 msgid "Add New"
 msgstr ""
 
-#: ../admin/admin.php:163
+#: ../admin/admin.php:164
 msgid "add_new_item"
 msgstr ""
 
-#: ../admin/admin.php:164
+#: ../admin/admin.php:165
 msgid "Add New Video"
 msgstr ""
 
-#: ../admin/admin.php:169
+#: ../admin/admin.php:170
 msgid "edit_item"
 msgstr ""
 
-#: ../admin/admin.php:170
+#: ../admin/admin.php:171
 msgid "Edit Video"
 msgstr ""
 
-#: ../admin/admin.php:175
+#: ../admin/admin.php:176
 msgid "new_item"
 msgstr ""
 
-#: ../admin/admin.php:176
+#: ../admin/admin.php:177
 msgid "New Video"
 msgstr "新视频"
 
-#: ../admin/admin.php:181
+#: ../admin/admin.php:182
 msgid "all_items"
 msgstr ""
 
-#: ../admin/admin.php:182
+#: ../admin/admin.php:183
 msgid "All Videos"
 msgstr ""
 
-#: ../admin/admin.php:187
+#: ../admin/admin.php:188
 msgid "view_item"
 msgstr ""
 
-#: ../admin/admin.php:188
+#: ../admin/admin.php:189
 msgid "View Video"
 msgstr ""
 
-#: ../admin/admin.php:193
+#: ../admin/admin.php:194
 msgid "search_items"
 msgstr ""
 
-#: ../admin/admin.php:194
+#: ../admin/admin.php:195
 msgid "Search Videos"
 msgstr ""
 
-#: ../admin/admin.php:199
+#: ../admin/admin.php:200
 msgid "not_found"
 msgstr ""
 
-#: ../admin/admin.php:200
+#: ../admin/admin.php:201
 msgid "No videos found."
 msgstr ""
 
-#: ../admin/admin.php:205
+#: ../admin/admin.php:206
 msgid "not_found_in_trash"
 msgstr ""
 
-#: ../admin/admin.php:206
+#: ../admin/admin.php:207
 msgid "No videos found in Trash."
 msgstr ""
 
-#: ../admin/admin.php:211
+#: ../admin/admin.php:212
 msgid "menu_name"
 msgstr ""
 
-#: ../admin/admin.php:217
+#: ../admin/admin.php:218
 msgid "name_admin_bar"
 msgstr ""
 
-#: ../admin/admin.php:229
+#: ../admin/admin.php:230
 msgid "Logo Type"
 msgstr ""
 
-#: ../admin/admin.php:234
+#: ../admin/admin.php:235
 msgid "Image Logo"
 msgstr "图片LOGO"
 
-#: ../admin/admin.php:235
+#: ../admin/admin.php:236
 msgid ""
 "Upload a logo for your theme, or specify the image url of your online logo."
 msgstr ""
 
-#: ../admin/admin.php:241
+#: ../admin/admin.php:242
 msgid "Tagline"
 msgstr ""
 
-#: ../admin/admin.php:242
+#: ../admin/admin.php:243
 msgid "Show site tagline?"
 msgstr ""
 
-#: ../admin/admin.php:247
+#: ../admin/admin.php:248
 msgid "Favicon"
 msgstr ""
 
-#: ../admin/admin.php:248
+#: ../admin/admin.php:249
 msgid ""
 "Upload a 16px x 16px PNG/GIF image that will represent your website's "
 "favicon."
 msgstr ""
 
-#: ../admin/admin.php:254
+#: ../admin/admin.php:255
 msgid "RSS URL"
 msgstr ""
 
-#: ../admin/admin.php:255
+#: ../admin/admin.php:256
 #, php-format
 msgid ""
 "The default RSS url of your website is <code>%s</code>, if you want to use "
 "other feed url(e.g. feedburner), paste it to here."
 msgstr ""
 
-#: ../admin/admin.php:260
+#: ../admin/admin.php:261
 msgid "Login Logo"
 msgstr "登录"
 
-#: ../admin/admin.php:261
+#: ../admin/admin.php:262
 msgid "Upload a logo for your wp-login.php page."
 msgstr ""
 
-#: ../admin/admin.php:267 ../admin/admin.php:386
+#: ../admin/admin.php:268 ../admin/admin.php:398
 msgid "Check this to enable footer navigation in footer area."
 msgstr ""
 
-#: ../admin/admin.php:268
+#: ../admin/admin.php:269
 #, php-format
 msgid ""
 "By default, the main navigation is a list of your categories, if your want "
@@ -1057,47 +1085,51 @@ msgid ""
 "set this menu as \"Main Navigation\" in \"Theme Location\" box."
 msgstr ""
 
-#: ../admin/admin.php:274
+#: ../admin/admin.php:275
 msgid "Responsive"
 msgstr ""
 
-#: ../admin/admin.php:275
+#: ../admin/admin.php:276
 msgid "Check this to enable responsive?"
 msgstr ""
 
-#: ../admin/admin.php:281
+#: ../admin/admin.php:282
 msgid "AddThis PubID"
 msgstr ""
 
-#: ../admin/admin.php:282
+#: ../admin/admin.php:283
 msgid ""
 "Your AddThis Publisher Profile ID (e.g. xa-502a3a59790da5bd). This required "
 "if you want AddThis to track analytics for your site."
 msgstr ""
 
-#: ../admin/admin.php:288
+#: ../admin/admin.php:289
 msgid "Facebook Open Graph Tags"
 msgstr ""
 
-#: ../admin/admin.php:289
+#: ../admin/admin.php:290
 msgid "Check this to insert Facebook Open Graph Tags into head."
 msgstr ""
 
-#: ../admin/admin.php:298 ../widgets/widget-related-posts.php:108
+#: ../admin/admin.php:299 ../widgets/widget-related-posts.php:108
 msgid "Related Posts"
 msgstr ""
 
-#: ../admin/admin.php:299
+#: ../admin/admin.php:300
 msgid ""
 "How many related posts should be displayed on the single post page? If you "
 "don't want to show it leave this field blank or set to 0."
 msgstr ""
 
-#: ../admin/admin.php:306
+#: ../admin/admin.php:307
+msgid "Related Posts View"
+msgstr ""
+
+#: ../admin/admin.php:318
 msgid "Single Video Layout"
 msgstr ""
 
-#: ../admin/admin.php:307
+#: ../admin/admin.php:319
 msgid ""
 "Specify a default layout for all of the video posts, and you can override "
 "this setting for individual posts in \"Video Settings\" panel on edit post "
@@ -1106,60 +1138,60 @@ msgstr ""
 "为所有的视频指定一个默认的布局，并且你可以在每个视频的编辑页面中的“视频设"
 "置”面板覆盖此设置。"
 
-#: ../admin/admin.php:309 ../admin/admin.php:843 ../admin/admin.php:1226
-#: ../admin/admin.php:1342 ../admin/admin.php:1352
+#: ../admin/admin.php:321 ../admin/admin.php:867 ../admin/admin.php:1268
+#: ../admin/admin.php:1411 ../admin/admin.php:1421
 msgid "Standard"
 msgstr "标准"
 
-#: ../admin/admin.php:310 ../admin/admin.php:572 ../admin/admin.php:844
-#: ../admin/admin.php:1342 ../admin/admin.php:1353
+#: ../admin/admin.php:322 ../admin/admin.php:584 ../admin/admin.php:868
+#: ../admin/admin.php:1411 ../admin/admin.php:1422
 msgid "Full Width"
 msgstr ""
 
-#: ../admin/admin.php:318 ../admin/admin.php:909
+#: ../admin/admin.php:330 ../admin/admin.php:934
 msgid "Autoplay"
 msgstr ""
 
-#: ../admin/admin.php:319
+#: ../admin/admin.php:331
 msgid "Check this to autoplay video when viewing a single video post?"
 msgstr ""
 
-#: ../admin/admin.php:326
+#: ../admin/admin.php:338
 msgid "\"More/Less\" Toggle"
 msgstr ""
 
-#: ../admin/admin.php:327
+#: ../admin/admin.php:339
 msgid ""
 "Enter a number as less height for video detatils area, eg. 100, if you don't "
 "need this function, leave this field blank or set to 0. Note: this function "
 "is only works on single video post pages."
 msgstr ""
 
-#: ../admin/admin.php:334
+#: ../admin/admin.php:346
 msgid "Thumbnail"
 msgstr ""
 
-#: ../admin/admin.php:335
+#: ../admin/admin.php:347
 msgid "Check this to show thumbnail on single posts."
 msgstr ""
 
-#: ../admin/admin.php:347
+#: ../admin/admin.php:359
 msgid "Login Required"
 msgstr ""
 
-#: ../admin/admin.php:348
+#: ../admin/admin.php:360
 msgid "Users must be registered and logged in to like post "
 msgstr ""
 
-#: ../admin/admin.php:353
+#: ../admin/admin.php:365
 msgid "Likes Page"
 msgstr ""
 
-#: ../admin/admin.php:354
+#: ../admin/admin.php:366
 msgid "&mdash; Select &mdash;"
 msgstr ""
 
-#: ../admin/admin.php:356
+#: ../admin/admin.php:368
 #, php-format
 msgid ""
 "<p>Select a page as user's likes page, if the page doesn't exist:<br />\n"
@@ -1179,15 +1211,15 @@ msgid ""
 "remind users to register and login.<br />"
 msgstr ""
 
-#: ../admin/admin.php:374
+#: ../admin/admin.php:386
 msgid "Header Search Box"
 msgstr ""
 
-#: ../admin/admin.php:375
+#: ../admin/admin.php:387
 msgid "Check this to enable search box in header area."
 msgstr ""
 
-#: ../admin/admin.php:387
+#: ../admin/admin.php:399
 #, php-format
 msgid ""
 "By default, the footer navigation is a list of your pages, if your want to "
@@ -1195,37 +1227,37 @@ msgid ""
 "this menu as \"Footer Navigation\" in \"Theme Location\" box."
 msgstr ""
 
-#: ../admin/admin.php:393
+#: ../admin/admin.php:405
 msgid "Footbar(Footer Widget Area)"
 msgstr ""
 
-#: ../admin/admin.php:394
+#: ../admin/admin.php:406
 #, php-format
 msgid ""
 "Check this to enable footbar. Add widgets on <a href=\"%s\">Appearance-"
 ">Widgets</a> page"
 msgstr ""
 
-#: ../admin/admin.php:399
+#: ../admin/admin.php:411
 msgid "Text for Copyright"
 msgstr "版权文字"
 
-#: ../admin/admin.php:400
+#: ../admin/admin.php:412
 #, php-format
 msgid "Copyright %1$s &copy; %2$s All rights reserved."
 msgstr ""
 
-#: ../admin/admin.php:401
+#: ../admin/admin.php:413
 msgid ""
 "<code>%1&#36;s</code> is current year, <code>%2&#36;s</code> is a link with "
 "your site name."
 msgstr ""
 
-#: ../admin/admin.php:406
+#: ../admin/admin.php:418
 msgid "Text for Credits"
 msgstr "感谢文字"
 
-#: ../admin/admin.php:407
+#: ../admin/admin.php:419
 msgid ""
 "Powered by <a target=\"_blank\" href=\"http://wordpress.org/\">WordPress</a> "
 "& <a target=\"_blank\" href=\"http://dedepress.com/themes/detube/\" title="
@@ -1233,241 +1265,255 @@ msgid ""
 "dedepress.com\" title=\"Premium WordPress Themes\">DeDePress</a>."
 msgstr ""
 
-#: ../admin/admin.php:408
+#: ../admin/admin.php:420
 msgid ""
 "Whether WordPress or DeDePress, No attribution or backlinks are strictly "
 "required, but play the game, it's always nice to be credited for your site. "
 "Any form of spreading the word is always appreciated!"
 msgstr ""
 
-#: ../admin/admin.php:414
+#: ../admin/admin.php:426
 msgid "Social Navigation"
 msgstr ""
 
-#: ../admin/admin.php:415
+#: ../admin/admin.php:427
 msgid "Check this to enable social navigation in footer area"
 msgstr ""
 
-#: ../admin/admin.php:420
+#: ../admin/admin.php:432
 msgid "Navigation Description"
 msgstr ""
 
-#: ../admin/admin.php:421
+#: ../admin/admin.php:433
 msgid "Follow us elsewhere"
 msgstr ""
 
-#: ../admin/admin.php:425
+#: ../admin/admin.php:437
 msgid "Twitter Link"
 msgstr ""
 
-#: ../admin/admin.php:435 ../admin/admin.php:460 ../admin/admin.php:485
-#: ../admin/admin.php:510 ../admin/admin.php:535
+#: ../admin/admin.php:447 ../admin/admin.php:472 ../admin/admin.php:497
+#: ../admin/admin.php:522 ../admin/admin.php:547
 msgid "URL:"
 msgstr ""
 
-#: ../admin/admin.php:442 ../admin/admin.php:467 ../admin/admin.php:492
-#: ../admin/admin.php:517 ../admin/admin.php:542
+#: ../admin/admin.php:454 ../admin/admin.php:479 ../admin/admin.php:504
+#: ../admin/admin.php:529 ../admin/admin.php:554
 msgid "Title Attribute:"
 msgstr ""
 
-#: ../admin/admin.php:443
+#: ../admin/admin.php:455
 msgid "Follow us on Twitter"
 msgstr ""
 
-#: ../admin/admin.php:450
+#: ../admin/admin.php:462
 msgid "Facebook Link"
 msgstr ""
 
-#: ../admin/admin.php:468
+#: ../admin/admin.php:480
 msgid "Become a fan on Facebook"
 msgstr ""
 
-#: ../admin/admin.php:475
+#: ../admin/admin.php:487
 msgid "Google Plus Link"
 msgstr ""
 
-#: ../admin/admin.php:493
+#: ../admin/admin.php:505
 msgid "Follow us on Google Plus"
 msgstr ""
 
-#: ../admin/admin.php:500
+#: ../admin/admin.php:512
 msgid "RSS Link"
 msgstr ""
 
-#: ../admin/admin.php:518
+#: ../admin/admin.php:530
 msgid "Subscriber to RSS Feed"
 msgstr "订阅到RSS"
 
-#: ../admin/admin.php:525
+#: ../admin/admin.php:537
 msgid "Newsletter Link"
 msgstr ""
 
-#: ../admin/admin.php:543
+#: ../admin/admin.php:555
 msgid "Premium WordPress Themes"
 msgstr ""
 
-#: ../admin/admin.php:555
+#: ../admin/admin.php:567
 msgid "Head Code"
 msgstr ""
 
-#: ../admin/admin.php:556
+#: ../admin/admin.php:568
 msgid ""
 "Paste any code here. It will be inserted before the <code>&lt;/head&gt;</"
 "code> tag of your theme."
 msgstr ""
 
-#: ../admin/admin.php:561
+#: ../admin/admin.php:573
 msgid "Footer Code"
 msgstr ""
 
-#: ../admin/admin.php:562
+#: ../admin/admin.php:574
 msgid ""
 "Paste any code here, e.g. your Google Analytics tracking code. It will be "
 "inserted before the <code>&lt;/body&gt;</code> tag of your theme."
 msgstr ""
 
-#: ../admin/admin.php:572
+#: ../admin/admin.php:584
 msgid "Boxed"
 msgstr ""
 
-#: ../admin/admin.php:573
+#: ../admin/admin.php:585
 msgid "Wrap Layout"
 msgstr ""
 
-#: ../admin/admin.php:579
+#: ../admin/admin.php:591
 msgid "Custom Background Color"
 msgstr ""
 
-#: ../admin/admin.php:580
+#: ../admin/admin.php:592
 msgid "Default color value is #EEEEEE"
 msgstr ""
 
-#: ../admin/admin.php:586
+#: ../admin/admin.php:598
 msgid "Background Pattern"
 msgstr ""
 
-#: ../admin/admin.php:587
+#: ../admin/admin.php:599
 msgid "Check this to enable background pattern."
 msgstr ""
 
-#: ../admin/admin.php:594
+#: ../admin/admin.php:606
 msgid "Preset Background Pattern"
 msgstr ""
 
-#: ../admin/admin.php:601
+#: ../admin/admin.php:613
 msgid "Custom Background Pattern"
 msgstr ""
 
-#: ../admin/admin.php:602
+#: ../admin/admin.php:614
 msgid "This option will override \"Preset Background Pattern\" in the above."
 msgstr ""
 
-#: ../admin/admin.php:609
+#: ../admin/admin.php:621
 msgid "Background Repeat"
 msgstr ""
 
-#: ../admin/admin.php:616
+#: ../admin/admin.php:628
 msgid "Background Attachment"
 msgstr ""
 
-#: ../admin/admin.php:622
+#: ../admin/admin.php:634
 msgid "Full Page Background Image"
 msgstr ""
 
-#: ../admin/admin.php:623
+#: ../admin/admin.php:635
 msgid "Check this to enable full page background image(not working below IE9)."
 msgstr ""
 
-#: ../admin/admin.php:640
+#: ../admin/admin.php:652
 msgid "Default"
 msgstr ""
 
-#: ../admin/admin.php:695
+#: ../admin/admin.php:707
 msgid "Home Settings"
 msgstr ""
 
-#: ../admin/admin.php:699
+#: ../admin/admin.php:711
 msgid "Home Sections Settings"
 msgstr ""
 
-#: ../admin/admin.php:700
+#: ../admin/admin.php:712
 msgid "Home Featured Settings"
 msgstr ""
 
-#: ../admin/admin.php:706
+#: ../admin/admin.php:718
 msgid "Newest Videos"
 msgstr "最新视频"
 
-#: ../admin/admin.php:767
+#: ../admin/admin.php:779
 msgid "Sort Types"
 msgstr "排序方式"
 
-#: ../admin/admin.php:777 ../admin/admin.php:804
+#: ../admin/admin.php:789 ../admin/admin.php:816
 msgid "Check a type to enable it, or drag the types to reorder."
 msgstr ""
 
-#: ../admin/admin.php:794
+#: ../admin/admin.php:806
 msgid "View Types"
 msgstr ""
 
-#: ../admin/admin.php:866
+#: ../admin/admin.php:890
 msgid ""
 "These settings enable you to show featured posts on home pages. If you don't "
 "want to show it, set 'Number of Posts' to 0."
 msgstr ""
 
-#: ../admin/admin.php:870
+#: ../admin/admin.php:894
 msgid "Layout"
 msgstr ""
 
-#: ../admin/admin.php:876 ../admin/admin.php:1075
+#: ../admin/admin.php:900 ../admin/admin.php:1112
 msgid "Post Type"
 msgstr ""
 
-#: ../admin/admin.php:883
+#: ../admin/admin.php:907
 msgid "Taxonomy Query"
 msgstr ""
 
-#: ../admin/admin.php:889 ../admin/admin.php:1090
+#: ../admin/admin.php:913 ../admin/admin.php:1127
 msgid "Sort"
 msgstr "排序"
 
-#: ../admin/admin.php:891 ../admin/admin.php:1092
+#: ../admin/admin.php:915 ../admin/admin.php:1129
 msgid "Order by:"
 msgstr ""
 
-#: ../admin/admin.php:892 ../admin/admin.php:1092
-#: ../widgets/widget-posts.php:172
+#: ../admin/admin.php:916 ../admin/admin.php:1130
+#: ../widgets/widget-posts.php:175
 msgid "Order:"
 msgstr ""
 
-#: ../admin/admin.php:896
+#: ../admin/admin.php:917 ../admin/admin.php:1131
+#: ../widgets/widget-posts.php:181
+msgid "Views Timing:"
+msgstr ""
+
+#: ../admin/admin.php:921
 msgid "Number of Posts"
 msgstr ""
 
-#: ../admin/admin.php:902 ../admin/admin.php:1102
+#: ../admin/admin.php:927 ../admin/admin.php:1141 ../admin/admin.php:1323
 msgid "Includes"
 msgstr ""
 
-#: ../admin/admin.php:905 ../admin/admin.php:1105
-#: ../widgets/widget-posts.php:189
+#: ../admin/admin.php:930 ../admin/admin.php:1144
 msgid ""
 "If you want to display specific posts, enter post ids to here, separate ids "
 "with commas, (e.g. 1,2,3,4). <br />if this field is not empty, category will "
 "be ignored. <br/>If you want to display posts sort by the order of your "
-"enter IDs, set \"Sort\" field as <strong>None</strong>."
+"enter IDs, set \"Sort\" field as <strong>Includes</strong>."
 msgstr ""
 
-#: ../admin/admin.php:911
+#: ../admin/admin.php:936
 msgid ""
-"Check this to autoplay video in home featured when viewing the home page?"
+"Check this to autoplay video in home featured when viewing the home page."
 msgstr ""
 
-#: ../admin/admin.php:915
+#: ../admin/admin.php:940
+msgid "Ajaxload"
+msgstr ""
+
+#: ../admin/admin.php:942
+msgid ""
+"Check this to enable ajax loading with Standard Layout. <strong>Note</"
+"strong>: The full width layout will always ajax loading."
+msgstr ""
+
+#: ../admin/admin.php:946
 msgid "Autoscroll"
 msgstr ""
 
-#: ../admin/admin.php:918
+#: ../admin/admin.php:949
 msgid ""
 "Set autoscrolling interval in milliseconds to make carousel to automatic "
 "play (eg. 2500), set it to 0 or leave it blank to disable it . <strong>Note</"
@@ -1475,113 +1521,103 @@ msgid ""
 "disable automatic video play and ajax video loading."
 msgstr ""
 
-#: ../admin/admin.php:954
+#: ../admin/admin.php:985
 msgid ""
 "These settings enable you to show posts of current category with carousel "
 "effect on category pages. If you don't want to show it, set 'Number of "
 "Posts' to 0."
 msgstr ""
 
-#: ../admin/admin.php:958
+#: ../admin/admin.php:989
 msgid "Query"
 msgstr "查询"
 
-#: ../admin/admin.php:961 ../admin/admin.php:1096
+#: ../admin/admin.php:992 ../admin/admin.php:1135
 msgid "Number of Posts:"
 msgstr ""
 
-#: ../admin/admin.php:978
+#: ../admin/admin.php:1009
 msgid ""
 "To adding a section, click \"<strong>Add New Section</strong>\" button. <br /"
 ">Drag sections up or down to change their order of appearance on home page."
 "<br/>Don't forget to click \"<strong>Save Changes</strong>\" button."
 msgstr ""
 
-#: ../admin/admin.php:980 ../admin/admin.php:995
+#: ../admin/admin.php:1011 ../admin/admin.php:1026
 msgid "Add New Section"
 msgstr ""
 
-#: ../admin/admin.php:1057
+#: ../admin/admin.php:1094
 msgid "Section Box"
 msgstr ""
 
-#: ../admin/admin.php:1084
+#: ../admin/admin.php:1121
 msgid "Taxomoy Query"
 msgstr ""
 
-#: ../admin/admin.php:1116
+#: ../admin/admin.php:1155
 msgid ""
 "If you specify a category, the default title is the category name, and you "
 "can still fill in this field to override it."
 msgstr ""
 
-#: ../admin/admin.php:1120
+#: ../admin/admin.php:1159
 msgid "Link"
 msgstr ""
 
-#: ../admin/admin.php:1123
+#: ../admin/admin.php:1162
 msgid ""
 "If you specified a category, the default link is the category link, and you "
 "can still fill in this field to override it."
 msgstr ""
 
-#: ../admin/admin.php:1127
+#: ../admin/admin.php:1166
 msgid "Before"
 msgstr ""
 
-#: ../admin/admin.php:1130
+#: ../admin/admin.php:1169
 msgid ""
 "Maybe you want to insert something before this section, such as your ad "
 "code. (support html and shortcode)."
 msgstr ""
 
-#: ../admin/admin.php:1134
+#: ../admin/admin.php:1173
 msgid "After"
 msgstr ""
 
-#: ../admin/admin.php:1137
+#: ../admin/admin.php:1176
 msgid ""
 "Maybe you want to insert something after this section, such as your ad code. "
 "(support html and shortcode)."
 msgstr ""
 
-#: ../admin/admin.php:1176 ../admin/admin.php:1219
-#: ../widgets/widget-comments.php:90 ../widgets/widget-posts.php:138
-#: ../widgets/widget-related-posts.php:133
-msgid "All"
-msgstr "全部"
-
-#: ../admin/admin.php:1281
-msgid "None"
-msgstr ""
-
-#: ../admin/admin.php:1334
+#: ../admin/admin.php:1403
 msgid "Video Settings"
 msgstr ""
 
-#: ../admin/admin.php:1348
+#: ../admin/admin.php:1417
 msgid "Video Layout"
 msgstr ""
 
-#: ../admin/admin.php:1349
+#: ../admin/admin.php:1418
 #, php-format
 msgid ""
 "The default single video layout is <b>\"%s\"</b>, select a layout if you "
 "want to use different layout to override it."
 msgstr ""
 
-#: ../admin/admin.php:1363
+#: ../admin/admin.php:1432
 msgid ""
 "Please choose one of the following ways to embed the video into your post, "
 "the video is determined in the order: <b>Video Code > Video URL > Video File."
 "</b>"
 msgstr ""
 
-#: ../admin/admin.php:1372
+#: ../admin/admin.php:1441
 msgid "Video File"
 msgstr ""
 
-#: ../admin/admin.php:1373
+#: ../admin/admin.php:1442
 msgid ""
 "Paste your video file url to here. <b>Supported Video Formats:</b> mp4, m4v, "
 "webmv, webm, ogv and flv.<br /><br/>\n"
@@ -1595,19 +1631,19 @@ msgid ""
 "\t\t\t\t"
 msgstr ""
 
-#: ../admin/admin.php:1384
+#: ../admin/admin.php:1453
 msgid "Video Poster"
 msgstr ""
 
-#: ../admin/admin.php:1385
+#: ../admin/admin.php:1454
 msgid "The preview image for video file, recommended size is 960px*540px."
 msgstr ""
 
-#: ../admin/admin.php:1394
+#: ../admin/admin.php:1463
 msgid "Video URL"
 msgstr ""
 
-#: ../admin/admin.php:1395
+#: ../admin/admin.php:1464
 msgid ""
 "Paste the url from popular video sites like YouTube or Vimeo. For example: "
 "<br/>\n"
@@ -1619,11 +1655,11 @@ msgid ""
 "\">Supported Video Sites</a>."
 msgstr ""
 
-#: ../admin/admin.php:1408
+#: ../admin/admin.php:1477
 msgid "Video Code"
 msgstr ""
 
-#: ../admin/admin.php:1409
+#: ../admin/admin.php:1478
 msgid ""
 "Paste the raw video code to here, such as <code>&lt;object&gt;</code>, "
 "<code>&lt;embed&gt;</code> or <code>&lt;iframe&gt;</code> code."
@@ -2037,7 +2073,7 @@ msgstr ""
 
 #: ../forums/index.php:104 ../groups/single/forum.php:75
 #: ../groups/single/forum/edit.php:47 ../widgets/widget-ad.php:71
-#: ../widgets/widget-comments.php:94 ../widgets/widget-posts.php:157
+#: ../widgets/widget-comments.php:94 ../widgets/widget-posts.php:160
 #: ../widgets/widget-related-posts.php:152
 #: ../widgets/widget-single-post-stats.php:47 ../widgets/widget-tweets.php:195
 #: ../widgets/widget-user-bio.php:71
@@ -2987,44 +3023,52 @@ msgstr ""
 msgid "Recent Posts"
 msgstr ""
 
-#: ../widgets/widget-posts.php:128 ../widgets/widget-related-posts.php:123
+#: ../widgets/widget-posts.php:129 ../widgets/widget-related-posts.php:123
 msgid "List with Thumbnail"
 msgstr ""
 
-#: ../widgets/widget-posts.php:129 ../widgets/widget-related-posts.php:124
+#: ../widgets/widget-posts.php:130 ../widgets/widget-related-posts.php:124
 msgid "List with Full Width Thumbnail"
 msgstr ""
 
-#: ../widgets/widget-posts.php:130 ../widgets/widget-related-posts.php:125
+#: ../widgets/widget-posts.php:131 ../widgets/widget-related-posts.php:125
 msgid "2 Columns Grid"
 msgstr "2 列表格"
 
-#: ../widgets/widget-posts.php:131 ../widgets/widget-related-posts.php:126
+#: ../widgets/widget-posts.php:132 ../widgets/widget-related-posts.php:126
 msgid "3 Columns Grid"
 msgstr "3 列表格"
 
-#: ../widgets/widget-posts.php:162 ../widgets/widget-related-posts.php:157
+#: ../widgets/widget-posts.php:165 ../widgets/widget-related-posts.php:157
 #: ../widgets/widget-tweets.php:203
 msgid "Number:"
 msgstr ""
 
-#: ../widgets/widget-posts.php:167
+#: ../widgets/widget-posts.php:170
 msgid "Orderby:"
 msgstr "排序"
 
-#: ../widgets/widget-posts.php:180
+#: ../widgets/widget-posts.php:194
 msgid "Limit posts by current category on category archive pages?"
 msgstr ""
 
-#: ../widgets/widget-posts.php:182
+#: ../widgets/widget-posts.php:196
 msgid "Limit posts by current author on author archive pages?"
 msgstr ""
 
-#: ../widgets/widget-posts.php:185
+#: ../widgets/widget-posts.php:199
 msgid "Includes:"
 msgstr ""
 
-#: ../widgets/widget-posts.php:193 ../widgets/widget-related-posts.php:162
+#: ../widgets/widget-posts.php:203
+msgid ""
+"If you want to display specific posts, enter post ids to here, separate ids "
+"with commas, (e.g. 1,2,3,4). <br />if this field is not empty, category will "
+"be ignored. <br/>If you want to display posts sort by the order of your "
+"enter IDs, set \"Sort\" field as <strong>None</strong>."
+msgstr ""
+
+#: ../widgets/widget-posts.php:207 ../widgets/widget-related-posts.php:162
 msgid "Style:"
 msgstr "样式："
 
@@ -3131,11 +3175,11 @@ msgstr ""
 
 #: ../widgets/widget-user-bio.php:79
 msgid "Bio Length:"
-msgstr ""
+msgstr "BIO长度"
 
 #: ../widgets/widget-user-bio.php:81
 msgid "Enter a length number if you want to limit bio length, e.g. 300."
-msgstr ""
+msgstr "如果你想限制BIO的长度，请输入一个数字，例如300。"
 
 #: ../widgets/widget-user-bio.php:83
 msgid "Strip HTML Tags?"
